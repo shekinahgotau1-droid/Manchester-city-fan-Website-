@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Manchester City Fan Website</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header>
+    <h1>🔵 Manchester City Fan Hub</h1>
+  </header>
+
+
+  <!-- ================= NAVIGATION ================= -->
+
+  <nav>
+
+    <h2>💙 MAN CITY</h2>
+
+    <div class="nav-links">
+
+      <a href="#home">Home</a>
+      <a href="#players">Players</a>
+      <a href="#transfers">Transfers</a>
+      <a href="#news">News</a>
+      <a href="#matches">Matches</a>
+      <a href="#trophies">Trophies</a>
+      <a href="#comments">Comments</a>
+      <a href="#ai-assistant">AI Assistant</a>
+      <a href="#community">💬 Community</a>
+
+    </div>
+
+
+    <!-- SEARCH -->
+
+    <section id="city-search">
+
+      <h2>🔎 Search Manchester City</h2>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for a player..."
+      >
+
+      <button
+        type="button"
+        onclick="searchCity()"
+      >
+        Search
+      </button>
+
+      <div id="searchResults"></div>
+
+    </section>
+
+  </nav>
+
+
+  <!-- ================= HOME ================= -->
+
+  <section id="home" class="hero">
+
+    <h1>
+      Welcome to the Manchester City Fan Website
+    </h1>
+
+    <p>
+      Your home for Manchester City news, players,
+      transfers, trophies and more.
+    </p>
+
+    <button
+      type="button"
+      onclick="showMessage()"
+    >
+      Explore Man City
+    </button>
+
+  </section>
+
+
+  <!-- ================= WELCOME ================= -->
+
+  <section class="welcome">
+
+    <h2>Welcome, Cityzens! 💙</h2>
+
+    <p>
+      Follow Manchester City and discover everything
+      about the club in one place.
+    </p>
+
+  </section>
+
+
+  <!-- ================= PLAYERS ================= -->
+
+  <section id="players">
+
+    <h2>Manchester City Starting XI 2026/27</h2>
+
+    <div class="players-container">
+
+      <div class="player-card">
+        <img src="donnarumma.jpg" alt="Gianluigi Donnarumma">
+        <h3>Gianluigi Donnarumma</h3>
+        <p>Goalkeeper</p>
+        <p>Number: 1</p>
+      </div>
+
+      <div class="player-card">
+        <img src="khusanov.jpg" alt="Abdukodir Khusanov">
+        <h3>Abdukodir Khusanov</h3>
+        <p>Defender</p>
+        <p>Number: 45</p>
+      </div>
+
+      <div class="player-card">
+        <img src="dias.jpg" alt="Rúben Dias">
+        <h3>Rúben Dias</h3>
+        <p>Defender</p>
+        <p>Number: 3</p>
+      </div>
+
+      <div class="player-card">
+        <img src="guehi.jpg" alt="Marc Guéhi">
+        <h3>Marc Guéhi</h3>
+        <p>Defender</p>
+        <p>Number: 6</p>
+      </div>
+
+      <div class="player-card">
+        <img src="gvardiol.jpg" alt="Joško Gvardiol">
+        <h3>Joško Gvardiol</h3>
+        <p>Defender</p>
+        <p>Number: 24</p>
+      </div>
+
+      <div class="player-card">
+        <img src="anderson.jpg" alt="Elliot Anderson">
+        <h3>Elliot Anderson</h3>
+        <p>Midfielder</p>
+        <p>Number: 5</p>
+      </div>
+
+      <div class="player-card">
+        <img src="lewis.jpg" alt="Rico Lewis">
+        <h3>Rico Lewis</h3>
+        <p>Midfielder</p>
+        <p>Number: 82</p>
+      </div>
+
+      <div class="player-card">
+        <img src="o'reilly.jpg" alt="Nico O'Reilly">
+        <h3>Nico O'Reilly</h3>
+        <p>Midfielder</p>
+        <p>Number: 33</p>
+      </div>
+
+      <div class="player-card">
+        <img src="semenyo.jpg" alt="Antoine Semenyo">
+        <h3>Antoine Semenyo</h3>
+        <p>Forward</p>
+        <p>Number: 42</p>
+      </div>
+
+      <div class="player-card">
+        <img src="foden.jpg" alt="Phil Foden">
+        <h3>Phil Foden</h3>
+        <p>Midfielder</p>
+        <p>Number: 47</p>
+      </div>
+
+      <div class="player-card">
+        <img src="haaland.jpg" alt="Erling Haaland">
+        <h3>Erling Haaland</h3>
+        <p>Striker</p>
+        <p>Number: 9</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TRANSFERS ================= -->
+
+  <section id="transfers" class="transfer-card">
+
+    <h2>🔵 Manchester City Transfers 2026/27</h2>
+
+    <h3>🟢 INCOMING TRANSFERS</h3>
+
+    <div class="transfer-item">
+
+      <img src="anderson.jpg" alt="Elliot Anderson">
+
+      <h4>Elliot Anderson</h4>
+
+      <p><strong>Position:</strong> Midfielder</p>
+      <p><strong>From:</strong> Nottingham Forest</p>
+      <p><strong>Transfer Fee:</strong> £116 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="bouaddi.jpg" alt="Ayyoub Bouaddi">
+
+      <h4>Ayyoub Bouaddi</h4>
+
+      <p><strong>Position:</strong> Defensive Midfielder</p>
+      <p><strong>From:</strong> Lille</p>
+      <p><strong>Transfer Fee:</strong> £81.3m + add-ons</p>
+      <p><strong>Type:</strong> AGREED / PENDING COMPLETION</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="monga.jpg" alt="Jeremy Monga">
+
+      <h4>Jeremy Monga</h4>
+
+      <p><strong>Position:</strong> Winger</p>
+      <p><strong>From:</strong> Leicester City</p>
+      <p><strong>Transfer Fee:</strong> £10 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="rulli.jpg" alt="Gerónimo Rulli">
+
+      <h4>Gerónimo Rulli</h4>
+
+      <p><strong>Position:</strong> Goalkeeper</p>
+      <p><strong>From:</strong> Marseille</p>
+      <p><strong>Transfer Fee:</strong> £1.7 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="charles.jpg" alt="Pierce Charles">
+
+      <h4>Pierce Charles</h4>
+
+      <p><strong>Position:</strong> Goalkeeper</p>
+      <p><strong>From:</strong> Sheffield Wednesday</p>
+      <p><strong>Transfer Fee:</strong> £3 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <h3>🔴 OUTGOING TRANSFERS</h3>
+
+    <div class="transfer-item">
+
+      <img src="rodri.jpg" alt="Rodri">
+
+      <h4>Rodri</h4>
+
+      <p><strong>Position:</strong> Defensive Midfielder</p>
+      <p><strong>To:</strong> Barcelona</p>
+      <p><strong>Transfer Fee:</strong> £65.4 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="reijnders.jpg" alt="Tijjani Reijnders">
+
+      <h4>Tijjani Reijnders</h4>
+
+      <p><strong>Position:</strong> Midfielder</p>
+      <p><strong>To:</strong> Al Qadsiah</p>
+      <p><strong>Transfer Fee:</strong> £51 million</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="savinho.jpg" alt="Savinho">
+
+      <h4>Savinho</h4>
+
+      <p><strong>Position:</strong> Winger</p>
+      <p><strong>To:</strong> Tottenham Hotspur</p>
+      <p><strong>Transfer Fee:</strong> £75m + £10m add-ons</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="mukasa.jpg" alt="Divine Mukasa">
+
+      <h4>Divine Mukasa</h4>
+
+      <p><strong>Position:</strong> Midfielder</p>
+      <p><strong>To:</strong> West Ham United</p>
+      <p><strong>Type:</strong> LOAN</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="emilio.jpg" alt="Emilio Lawrence">
+
+      <h4>Emilio Lawrence</h4>
+
+      <p><strong>Position:</strong> Midfielder</p>
+      <p><strong>To:</strong> Luton Town</p>
+      <p><strong>Type:</strong> LOAN</p>
+
+    </div>
+
+    <div class="transfer-item">
+
+      <img src="B.Silva.jpg" alt="Bernardo Silva">
+
+      <h4>Bernardo Silva</h4>
+
+      <p><strong>Position:</strong> Midfielder</p>
+      <p><strong>To:</strong> Real Madrid</p>
+      <p><strong>Type:</strong> PERMANENT</p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= NEWS ================= -->
+
+  <section id="news" class="news-card">
+
+    <h2>📰 Manchester City News</h2>
+
+    <p class="news-date">
+      23 August 2026
+    </p>
+
+    <img
+      src="Gvar.jpg"
+      alt="Josko Gvardiol"
+    >
+
+    <video controls width="100%">
+
+      <source
+        src="Bournemouth highlights.mp4"
+        type="video/mp4"
+      >
+
+      Your browser does not support video.
+
+    </video>
+
+    <a
+      href="https://www.mancity.com/citytv/mens/manchester-city-2-1-bournemouth-two-minute-highlights-63923095"
+      target="_blank"
+      rel="noopener"
+    >
+      ▶ Watch Match Highlights
+    </a>
+
+    <p>
+      Manchester City came from behind to defeat Bournemouth 2-1.
+      Marc Guehi equalised late before Josko Gvardiol scored
+      the stoppage-time winner to give City all three points.
+    </p>
+
+  </section>
+
+
+  <!-- ================= MATCHES ================= -->
+
+  <section id="matches">
+
+    <h2>Manchester City Matches 2026/27</h2>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs AFC Bournemouth</h3>
+
+      <p>📅 23 August 2026</p>
+      <p>🏆 Premier League</p>
+      <p>🏟️ Etihad Stadium</p>
+
+      <button
+        type="button"
+        onclick="watchMatch('https://www.mancity.com/citytv/mens/extended-highlights-manchester-city-2-1-bournemouth-august-2026-63923099')"
+      >
+        🎬 Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Crystal Palace vs Manchester City</h3>
+
+      <p>📅 28 August 2026</p>
+      <p>🏆 Premier League</p>
+      <p>🏟️ Selhurst Park</p>
+
+      <button type="button">
+        Match Preview
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Coventry City</h3>
+
+      <p>Premier League — 5 September 2026</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester United vs Manchester City</h3>
+
+      <p>Premier League — 12 September 2026</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Sunderland</h3>
+
+      <p>Premier League — 19 September 2026</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Liverpool vs Manchester City</h3>
+
+      <p>Premier League — 10 October 2026</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Chelsea</h3>
+
+      <p>Premier League — 12 December 2026</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Manchester United</h3>
+
+      <p>Premier League — 20 March 2027</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Liverpool</h3>
+
+      <p>Premier League — 8 May 2027</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+    <div class="match-card">
+
+      <h3>Manchester City vs Aston Villa</h3>
+
+      <p>Premier League — 23 May 2027</p>
+
+      <button type="button">
+        Highlights
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TROPHIES ================= -->
+
+  <section id="trophies" class="trophies">
+
+    <h2>Manchester City Trophies</h2>
+
+    <div class="trophy-container">
+
+      <div class="trophy-card">
+
+        <img
+          src="premier-league.jpg"
+          alt="Premier League Trophy"
+        >
+
+        <h3>Premier League</h3>
+
+        <p>10 Wins</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="fa-cup.jpg"
+          alt="FA Cup Trophy"
+        >
+
+        <h3>FA Cup</h3>
+
+        <p>8 Wins</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="carabao-cup.jpg"
+          alt="Carabao Cup Trophy"
+        >
+
+        <h3>Carabao Cup</h3>
+
+        <p>9 Wins</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="champions-league.jpg"
+          alt="Champions League Trophy"
+        >
+
+        <h3>Champions League</h3>
+
+        <p>1 Win</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="super-cup.jpg"
+          alt="UEFA Super Cup Trophy"
+        >
+
+        <h3>UEFA Super Cup</h3>
+
+        <p>1 Win</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="club-world-cup.jpg"
+          alt="FIFA Club World Cup Trophy"
+        >
+
+        <h3>FIFA Club World Cup</h3>
+
+        <p>1 Win</p>
+
+      </div>
+
+      <div class="trophy-card">
+
+        <img
+          src="Ballon.jpg"
+          alt="Rodri Ballon d'Or"
+        >
+
+        <h3>Rodri</h3>
+
+        <p>
+          Manchester City produced their first Ballon d'Or winner,
+          Rodri.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= MUSIC ================= -->
+
+  <section class="music">
+
+    <h2>🎵 Manchester City Music</h2>
+
+    <audio controls>
+
+      <source
+        src="music.mp3"
+        type="audio/mpeg"
+      >
+
+      Your browser does not support the audio element.
+
+    </audio>
+
+  </section>
+
+
+  <!-- ================= COMMENTS ================= -->
+
+  <section id="comments">
+
+    <h2>💬 Player Comments</h2>
+
+    <div id="commentList">
+
+      <div class="comment">
+
+        <strong>Haaland</strong>
+
+        <p>Great win today! 💙</p>
+
+        <button
+          type="button"
+          onclick="likeComment(this)"
+        >
+          ❤️ <span>0</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="replyToComment(this)"
+        >
+          💬 Reply
+        </button>
+
+        <div class="replyBox"></div>
+
+      </div>
+
+
+      <div class="comment">
+
+        <strong>Foden</strong>
+
+        <p>Let's keep going! 🔥</p>
+
+        <button
+          type="button"
+          onclick="likeComment(this)"
+        >
+          ❤️ <span>0</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="replyToComment(this)"
+        >
+          💬 Reply
+        </button>
+
+        <div class="replyBox"></div>
+
+      </div>
+
+    </div>
+
+
+    <input
+      type="text"
+      id="commentName"
+      placeholder="Your name"
+    >
+
+    <input
+      type="text"
+      id="commentText"
+      placeholder="Write a comment..."
+    >
+
+    <button
+      type="button"
+      onclick="addComment()"
+    >
+      Post Comment
+    </button>
+
+  </section>
+
+
+  <!-- ================= AI ASSISTANT ================= -->
+
+  <section
+    id="ai-assistant"
+    class="ai-assistant"
+  >
+
+    <h2>🤖 City AI Assistant</h2>
+
+    <p>
+      Ask me anything about Manchester City!
+    </p>
+
+    <div id="messages">
+
+      <div class="ai-message">
+        👋 Hello! I'm City AI.
+        Ask me a question about Manchester City.
+      </div>
+
+    </div>
+
+
+    <div class="chat-input">
+
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Ask City AI..."
+      >
+
+      <button
+        type="button"
+        onclick="sendMessage()"
+      >
+        Send
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= COMMUNITY ================= -->
+
+  <section id="community" class="community">
+
+    <h2>💬 City Community</h2>
+
+    <p>
+      Talk with other Manchester City fans! 💙
+    </p>
+
+
+    <!-- CREATE COMMUNITY POST -->
+
+    <div class="community-form">
+
+      <input
+        type="text"
+        id="communityName"
+        placeholder="Your name"
+      >
+
+      <textarea
+        id="communityText"
+        placeholder="What do you think about Manchester City?"
+      ></textarea>
+
+      <button
+        type="button"
+        onclick="addCommunityPost()"
+      >
+        🚀 Post
+      </button>
+
+    </div>
+
+
+    <!-- COMMUNITY POSTS -->
+
+    <div id="communityPosts">
+
+      <div class="community-post">
+
+        <strong>Cityzen</strong>
+
+        <p>
+          Come on City! 💙 What a team!
+        </p>
+
+        <button
+          type="button"
+          onclick="likeCommunityPost(this)"
+        >
+          ❤️ <span>0</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="replyCommunityPost(this)"
+        >
+          💬 Reply
+        </button>
+
+        <div class="community-replies"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= BACK TO TOP ================= -->
+
+  <button
+    id="backToTop"
+    type="button"
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+  >
+    ⬆️ Back to Top
+  </button>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <p>
+      💙 Manchester City Fan Hub
+    </p>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script
+    type="module"
+    src="script.js"
+  ></script>
+
+
+  <!-- ================= EXTRA WEBSITE FUNCTIONS ================= -->
+
+  <script>
+
+    function showMessage() {
+
+      alert(
+        "💙 Welcome to the Manchester City Fan Hub!"
+      );
+
+    }
+
+
+    function searchCity() {
+
+      const input =
+        document.getElementById("searchInput");
+
+      const results =
+        document.getElementById("searchResults");
+
+      const search =
+        input.value.toLowerCase().trim();
+
+
+      if (search === "") {
+
+        results.textContent =
+          "Please enter something to search.";
+
+        return;
+
+      }
+
+
+      if (search.includes("player")) {
+
+        document
+          .getElementById("players")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "⚽ Opening Players...";
+
+      }
+
+      else if (search.includes("transfer")) {
+
+        document
+          .getElementById("transfers")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "🔄 Opening Transfers...";
+
+      }
+
+      else if (search.includes("news")) {
+
+        document
+          .getElementById("news")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "📰 Opening News...";
+
+      }
+
+      else if (search.includes("match")) {
+
+        document
+          .getElementById("matches")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "🏟️ Opening Matches...";
+
+      }
+
+      else if (search.includes("trophy")) {
+
+        document
+          .getElementById("trophies")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "🏆 Opening Trophies...";
+
+      }
+
+      else if (
+        search.includes("ai") ||
+        search.includes("assistant") ||
+        search.includes("chat")
+      ) {
+
+        document
+          .getElementById("ai-assistant")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "🤖 Opening City AI...";
+
+      }
+
+      else if (
+        search.includes("comment") ||
+        search.includes("community")
+      ) {
+
+        document
+          .getElementById("community")
+          .scrollIntoView({
+            behavior: "smooth"
+          });
+
+        results.textContent =
+          "💬 Opening Community...";
+
+      }
+
+      else {
+
+        results.textContent =
+          "🔎 Try searching for players, transfers, news, matches, trophies, AI or community.";
+
+      }
+
+    }
+
+
+    function watchMatch(url) {
+
+      window.open(
+        url,
+        "_blank"
+      );
+
+    }
+
+  </script>
+
+</body>
+
+</html>
